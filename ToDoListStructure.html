@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Simple To-Do List App</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tiny5">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet"
+          href="style.css"
+  </head>
+
+  <body>
+    <section id="project-explanation">
+      <h1>To-Do List App!</h1>
+      <h2>HTML CSS JavaScript</h2>
+      <time datetime="2024-05-25">5/25/2024</time>
+      <p class="introduction content-container"> 
+        This project is for applying my learned skills in the three core web development programming languages HTML, CSS, and JavaScript into a realistic, interactive application. This project should:
+        <ul class="introduction content-container">
+          <li>let users enter text into a box and add that item to a list.</li>
+          <li>remove the last item from the list.</li>
+          <li>clear the list.</li>
+        </ul>
+      </p>
+      <p class="introduction content-container">
+        This is part of the <a href="https://successworks.wisc.edu/skill-paths-program/">SuccessWorks Skills Path Program</a> at UW-Madison.
+      </p>
+    </section>
+
+    <br>
+
+    <section id="main-content">
+      <h1>To-Do List:</h1>
+      <ol class="body-content-container" id="to-do-list">
+      </ol>
+    </section>
+
+    <section id="input-content">
+      <input type="text" id="textbox">
+      <section id="buttons">
+        <button id="first-button" class="button-group">Add item</button>
+        <button id="second-button" class="button-group">Remove last item</button>
+        <button id="third-button" class="button-group">Clear all</button>
+      </section>
+    </section>
+
+    <br>
+
+    <p>This application needs more work on:</p>
+    <input type="radio" id="html" name="improve" value="HTML">
+    <label>HTML</label>
+    <input type="radio" id="css" name="improve" value="CSS">
+    <label>CSS</label>
+    <input type="radio" id="javascript" name="improve" value="JavaScript">
+    <label>JavaScript</label>
+
+
+  </body>
+
+  <script src="ToDoListAppScript.js"></script>
+
+</html>
